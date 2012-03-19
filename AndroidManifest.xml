@@ -27,6 +27,10 @@
 		<activity android:name=".activity.PlayerActivity"
 				  android:label="@string/app_name" >
 		</activity>
+		
+		<activity android:name=".activity.SearchLocalMp3Activity"
+				  android:label="@string/app_name">
+		</activity>
 				  		  
 		<service android:name=".service.DownloadService"></service>
 		

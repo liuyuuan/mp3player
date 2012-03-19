@@ -155,8 +155,6 @@ public class RemoteServerMp3ListActivity extends Activity
     	listView.setAdapter(simpleAdapter);
     	//单击listView的一个选项
     	clickListItem(listView);
-    	
-    	mp3lists = null;
     }
     
     /**

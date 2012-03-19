@@ -4,7 +4,7 @@
     <string name="app_name">mp3player</string>
     <string name="mp3list.update">更新列表</string>
     <string name="mp3list.about">关于</string>
-    
-
+    <string name="search">本地搜索</string>
+	
 
 </resources>

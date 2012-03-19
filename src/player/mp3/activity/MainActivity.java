@@ -26,6 +26,8 @@ public class MainActivity extends TabActivity
 		addLocalListActivity(resource);
 		//添加显示远程服务器端MP3列表界面Activity
 		addRemoteServerAcitvity(resource);
+		//添加本地搜索MP3Activity
+		addSearchLocalMp3Activity(resource);
 	}
 	
 	/**
@@ -50,6 +52,15 @@ public class MainActivity extends TabActivity
 		Intent localIntent = new Intent(this, LocalMp3ListActivity.class);
 
 		addTabSpecOnTabHost(localIntent, "本地列表", resource.getDrawable(R.drawable.bluetooth));
+	}
+	/**
+	 * 添加本地搜索MP3Activity
+	 * @param resource
+	 */
+	private void addSearchLocalMp3Activity(Resources resource)
+	{
+		Intent searchIntent = new Intent(this, SearchLocalMp3Activity.class);
+		addTabSpecOnTabHost(searchIntent, "本地搜索", resource.getDrawable(R.drawable.heyzap));
 	}
 	
 	/**
